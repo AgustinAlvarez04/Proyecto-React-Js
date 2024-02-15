@@ -1,9 +1,16 @@
 import './App.css'
+import Button from './Button/Button'
+import NavBar from './NavBar/NavBar'
+import ItemCount from './ItemCount/ItemCount'
+import ItemListContainer from './ItemListContainer/ItemListContainer'
 
 function App() {
   return (
     <>
-      <h1>Holaaa</h1>
+      <NavBar />
+      <ItemListContainer text="¡Bienvenidos!"/>
+      <Button label="Apretame" handleClick={() => console.log("Holaaa")}/>
+      <ItemCount title={"AAA"}/>
     </>
   )
 }
