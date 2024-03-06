@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer text="¡Bienvenidos!"/>
+      <ItemListContainer />
       <Articulos img="http://placekitten.com/200/300" titulo="Gatico"> 
         <p>Es muy bonico!</p>
       </Articulos>
